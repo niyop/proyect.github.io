@@ -1,0 +1,18 @@
+/* Agrega este código CSS en tu archivo style.css o en una etiqueta <style> en el encabezado del documento HTML */
+
+/* Estilo para resaltar las tarjetas en hover */
+.card:hover {
+    transform: scale(1.05); /* Escala la tarjeta en hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra en hover */
+}
+
+/* Cambia el color del título y el texto en hover */
+.card:hover .card-title,
+.card:hover .card-text {
+    color: #007BFF;
+}
+
+/* Agrega una transición suave en hover para una animación agradable */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s, color 0.3s;
+}

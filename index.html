@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio</title>
+    <!-- Enlaza Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- Agrega la clase "bg-primary" para el fondo azul -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">PAGINA MIGUEL CEDEÑO
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                   
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de mí</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <br>
+                    <br>
+                    <br>
+
+                    <section class="main-section">
+                        <h1>SOBRE MI</h1>
+                        <p>Soy un estudiante de décimo grado que se encuentra en el proceso de aprendizaje de HTML y CSS. Estoy explorando el mundo del desarrollo web para crear sitios web y aplicaciones. HTML lo utilizo para estructurar el contenido de las páginas web, como textos e imágenes, mientras que CSS me permite diseñar y dar estilo a esos elementos para que se vean atractivos y funcionen de manera efectiva. Estoy emocionado por aprender más sobre el desarrollo web y las posibilidades que ofrece para crear sitios web impresionantes.</p>
+                        <img src="pikachu.jpeg" class="img-fluid">
+                        <br>
+                        <br>
+                    </section>
+                </div>
+                <div class="col-lg-4">
+                    <aside class="sidebar">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h2>Mis Habilidades</h2>
+                        <br>
+                        <br>
+                        <ul class="list-group">
+                            <li class="list-group-item">HTML</li>
+                            <li class="list-group-item">CSS</li>
+                            <li class="list-group-item">JavaScript</li>
+                            <li class="list-group-item">Bootstrap</li>
+                            <li class="list-group-item">Diseño web</li>
+                        </ul>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <a href="https://www.pokemon.com/el/pokedex" class="btn btn-primary">Ir a la Pokédex</a>
+  
+                    </aside>
+                    
+                </div>
+                   
+            </div>
+            
+        </div>
+    </main>
+    
+    <div>
+        <br>
+        <br>
+    </div>
+
+    
+    <section class="projects-section bg-dark text-white">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="poke.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Poke App</h5>
+                            <p class="card-text">Pagina web desarrollada para ver Pokemones
+                                desarrollado en el taller de semana 5
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <se class="how-to-use-bootstrap-section">
+                        <h2>Cómo usé Bootstrap</h2>
+                        <p>
+                            Utilicé Bootstrap para crear un diseño receptivo y moderno en mi sitio web. 
+                            Bootstrap me permitió implementar fácilmente el sistema de cuadrícula para la 
+                            disposición de elementos, así como componentes de interfaz de usuario listos 
+                            para usar como la barra de navegación y las tarjetas de proyectos.
+                        </p>
+                        <img src="dito.png" class="img-fluid">
+                        <br>
+                        <br>
+
+                    </section>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </section>
+    <div>
+        <br>
+    </div>
+    <footer class="footer bg-primary">
+        <div class="container">
+            <p class="text-center text-white" style="font-size: 20px; font-family: 'Arial', sans-serif; border-radius: 10px;">Desarrollado por Miguel Nicolás Cruz Cedeño</p>
+            <!-- Agrega un enlace de correo usando Bootstrap con ícono -->
+            <p class="text-center text-white" style="font-size: 16px; font-family: 'Arial', sans-serif; border-radius: 10px;">
+                <a href="mailto:nicoyop2007@gmail.com" class="btn btn-primary" style="border-radius: 10px;"><i class="glyphicon glyphicon-envelope"></i> CONTACTAME</a>
+                <a href="https://drive.google.com/drive/folders/1Xp-6jqM5p5Z-y0OYuDTvVCN6scoA69HP?usp=sharing" class="btn btn-primary" style="border-radius: 10px;"><i class="glyphicon glyphicon-cloud"></i> PORTAFOLIO DE DRIVE</a>
+            </p>
+        </div>
+    </footer>
+    
+    
+    <!-- Agrega el CSS para los estilos de "hover" -->
+    <style>
+        .list-group-item:hover {
+            background-color: #007BFF; /* Cambia el color de fondo en hover */
+            color: #fff; /* Cambia el color del texto en hover */
+            cursor: pointer; /* Cambia el cursor a una mano en hover */
+        }
+
+        .card:hover {
+            transform: scale(1.05); /* Escala la tarjeta en hover */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra en hover */
+        }
+
+        .card:hover .card-title,
+        .card:hover .card-text {
+            color: #007BFF;
+        }
+
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s, color 0.3s;
+        }
+
+        .navbar {
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar:hover {
+            background-color: #fff;
+            color: #007BFF;
+        }
+        
+    </style>
+</body>
+</html>
